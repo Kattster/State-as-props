@@ -15,8 +15,20 @@ const menuItems = [
   },
   {
     id: 3,
-    type: 'Slice of Sausage',
+    type: 'Slice of Veggie',
     price: 3,
+    qty: 0
+  },
+  {
+    id: 4,
+    type: 'Slice of Portobello',
+    price: 5,
+    qty: 0
+  },
+  {
+    id: 5,
+    type: 'Slice of Eggplant Parmesan',
+    price: 6,
     qty: 0
   }
 ];

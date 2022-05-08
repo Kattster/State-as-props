@@ -1,5 +1,5 @@
 
-import Menu from './menu/Menu';
+// import Menu from '../menu/Menu';
 import './MenuItem.css';
 
 function MenuItem({type, price, qty, id, updateQty}){
@@ -16,8 +16,8 @@ function MenuItem({type, price, qty, id, updateQty}){
     <div className='MenuItem'>
       <div>{type}</div>
       <div>$ {price}</div>
-      <div>Qty{qty}</div>
-      <button onClick={ddSlice}>+</button>
+      <div>Qty {qty}</div>
+      <button className='MenuItem button' onClick={addSlice}>+</button>
       {/* Using a Ternary so the "removeSlice" function will NOT run when the qty is a zero (NOTE: "null" is used for the "else" in this Ternary so that nothing will happen if the condition is false) */}
       <button onClick={() => (qty > 0) ? removeSlice() : null}>-</button>
       <div>Total: $ {price * qty} </div>
