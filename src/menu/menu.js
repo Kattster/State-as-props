@@ -34,31 +34,7 @@ function Menu({ startingItems }) {
         <section className="Menu">
              <h1 className="Menu-title">Kat's Pizzeria</h1>
              <div>
-                {/* <MenuItem 
-            type={startingItems [0].type}
-            price={startingItems [0].price}
-            qty={startingItems [0].qty}
-            />
-                <MenuItem 
-            type={startingItems [1].type}
-            price={startingItems [1].price}
-            qty={startingItems [1].qty}
-            />
-                <MenuItem 
-            type={startingItems [2].type}
-            price={startingItems [2].price}
-            qty={startingItems [2].qty}
-            />
-                <MenuItem 
-            type={startingItems [3].type}
-            price={startingItems [3].price}
-            qty={startingItems [3].qty}
-            />
-                <MenuItem 
-            type={startingItems [4].type}
-            price={startingItems [4].price}
-            qty={startingItems [4].qty}
-            /> */}
+                
             {/* Using the map method, which returns a new array whose item values are determined by what is returned from the function passed into the map method. This function is run for each item in the array that the map method is used on. In this case a new MenuItem component is returned/created each time the function is run. */} 
             {items.map(i => (
                 <MenuItem 

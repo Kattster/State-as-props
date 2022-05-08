@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=IM+Fell+French+Canon&family=Life+Savers&display=swap');
+
   .Menu {
     background-color: red;
     width: 600px;
@@ -8,16 +10,39 @@
     color: white;
     padding: 20px;
     border-radius: 5px;
+    border: 5px double brick solid;
+    color: white;
+
   }
   
   .Menu-title {
     text-decoration: underline;
+    font-family: 'Cabin Sketch';
+    font-size: 75px;
+    color: white;
+    text-decoration: none;
     text-align: center;
+    border: 5px double red;
+    border-radius: 75px;
+  }
+  .menu-tagline {
+    text-align: center;
+    font-size: 30px;
+    transform: translateY(-80px);
+    text-decoration: underline;
   }
   
   .Menu h2 {
     text-align: right;
+    font-family: 'Life Savers';
+    padding-right: 20px;
   }
-
-
   
+  #pos-btn {
+    font-size: 20px;
+    color: black;
+  }
+  #neg-btn {
+    font-size: 25px;
+    color: red;
+  }
